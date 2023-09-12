@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CreatureTemplate" load_steps=6 format=3 uid="uid://blof8p2ypy5mj"]
+
+[ext_resource type="Script" path="res://scripts/creatureTemplate.gd" id="1_rnieb"]
+[ext_resource type="Resource" uid="uid://ximdntu7qp76" path="res://attacks/fireball.tres" id="1_ybqwl"]
+[ext_resource type="Texture2D" uid="uid://dr008u85ig4xq" path="res://icon.svg" id="2_5eu2b"]
+[ext_resource type="Resource" uid="uid://c7ndygi8ahc6w" path="res://attacks/shove.tres" id="2_75nxm"]
+[ext_resource type="Texture2D" uid="uid://oe5tm4f2axrp" path="res://shiny.svg" id="4_iatrl"]
+
+[resource]
+script = ExtResource("1_rnieb")
+name = "Flame King"
+sprite = ExtResource("2_5eu2b")
+shinySprite = ExtResource("4_iatrl")
+isShiny = false
+health = 30
+stamina = 15
+creatureType = 3
+attack1 = ExtResource("1_ybqwl")
+attack2 = ExtResource("2_75nxm")

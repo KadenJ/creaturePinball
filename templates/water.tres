@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CreatureTemplate" load_steps=4 format=3 uid="uid://dm4s818yocifa"]
+
+[ext_resource type="Resource" uid="uid://c7ndygi8ahc6w" path="res://attacks/shove.tres" id="1_dinbc"]
+[ext_resource type="Script" path="res://scripts/creatureTemplate.gd" id="2_nsbeq"]
+[ext_resource type="Texture2D" uid="uid://dr008u85ig4xq" path="res://icon.svg" id="3_6ik1h"]
+
+[resource]
+script = ExtResource("2_nsbeq")
+name = "water"
+sprite = ExtResource("3_6ik1h")
+isShiny = false
+health = 10
+stamina = 15
+creatureType = 1
+attack1 = ExtResource("1_dinbc")
+attack2 = ExtResource("1_dinbc")

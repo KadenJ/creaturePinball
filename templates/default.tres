@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CreatureTemplate" load_steps=4 format=3 uid="uid://dccwey01wecc8"]
+
+[ext_resource type="Script" path="res://scripts/creatureTemplate.gd" id="1_bdrfb"]
+[ext_resource type="Resource" uid="uid://c7ndygi8ahc6w" path="res://attacks/shove.tres" id="1_bfgfn"]
+[ext_resource type="Texture2D" uid="uid://dr008u85ig4xq" path="res://icon.svg" id="3_bdcq0"]
+
+[resource]
+script = ExtResource("1_bdrfb")
+name = ""
+sprite = ExtResource("3_bdcq0")
+isShiny = false
+health = 10
+stamina = 15
+creatureType = 0
+attack1 = ExtResource("1_bfgfn")
+attack2 = ExtResource("1_bfgfn")

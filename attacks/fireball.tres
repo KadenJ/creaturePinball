@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AttackTemplate" load_steps=2 format=3 uid="uid://ximdntu7qp76"]
+
+[ext_resource type="Script" path="res://scripts/AttackTemplates.gd" id="1_aub7g"]
+
+[resource]
+script = ExtResource("1_aub7g")
+name = "fireball"
+damage = 10
+staminaUse = 5
+attackType = "Fire"

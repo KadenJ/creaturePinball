@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AttackTemplate" load_steps=2 format=3 uid="uid://c7ndygi8ahc6w"]
+
+[ext_resource type="Script" path="res://scripts/AttackTemplates.gd" id="1_ko360"]
+
+[resource]
+script = ExtResource("1_ko360")
+name = "shove"
+damage = 2
+staminaUse = 1
+attackType = "Normal"
